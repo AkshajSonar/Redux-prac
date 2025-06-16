@@ -1,18 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Counter from './components/counter';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        grND WELCOME
-      </div>
-    </>
-  )
-}
+    <div>
+      <Counter />
+    </div>
+  );
+};
 
-export default App
+export default App;
